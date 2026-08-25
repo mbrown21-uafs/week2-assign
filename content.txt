@@ -1,25 +1,79 @@
-Web Systems Course Overview
-Welcome to CSCE 20303: Web Systems. This course introduces the foundational technologies used to build modern web applications, focusing on client-side markup, style, and server-side execution.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Systems Course Overview</title>
+
+</head>
+
+<body>
+
+	<h1>CSCE 20303: Web Systems</h1>
+	
+	
+<p>
+Welcome to CSCE 20303: Web Systems. This course introduces the foundational 
+technologies used to build modern web applications, 
+focusing on client-side markup, style, and server-side execution.
+</p>
 
 [Image Placeholder: web-architecture.png - Description: Client-Server Architecture Diagram]
 
-Course Learning Objectives
-By the end of this semester, you will be able to:
-- Structure web documents using semantic HTML5.
-- Style and lay out web pages using CSS.
-- Build dynamic client-side applications with JavaScript.
-- Understand client-server architecture and HTTP request cycles.
 
-Weekly Topic Schedule
-Week 1 | Course Introduction & HTTP Basics | Reading: Ch. 1
-Week 2 | HTML5 Semantics & Internal CSS | Reading: Ch. 2-3
-Week 3 | CSS Box Model & Flexbox Layouts | Reading: Ch. 4
-Week 4 | Client-Side JavaScript Foundations | Reading: Ch. 5
 
-Important Note on Assignments
+<h2>Course Learning Objectives</h2>
+
+<p>By the end of this semester, you will be able to:</p>
+
+<ul>
+	<li>Structure web documents using semantic HTML5.</li>
+	<li>Style and lay out web pages using CSS.</li>
+	<li>Build dynamic client-side applications with JavaScript.</li>
+	<li>Understand client-server architecture and HTTP request cycles.</li>
+</ul>
+
+<h2>Weekly Topic Schedule</h2>
+<table>
+	<tr>
+		<th>Week</th>
+		<th>Topic</th>
+		<th>Readings</th>
+	</tr>
+	
+	<tr>
+		<td>Week 1</td>
+		<td>Course Introduction & HTTP Basics</td>
+		<td>Readings: Ch. 1</td>
+	</tr>
+	
+	<tr>
+		<td>Week 2</td>
+		<td>HTML5 Semantics & Internal CSS</td>
+		<td>Readings: Ch. 2-3</td>
+	</tr>
+	
+	<tr>
+		<td>Week 3</td>
+		<td>Css Box Model & Flexbox Layouts</td>
+		<td>Readings: Ch. 4</td>
+	</tr>
+	
+	<tr>
+		<td>Week 4</td>
+		<td>Client-Side JavaScript Foundations</td>
+		<td>Readings: Ch. 5</td>
+	</tr>
+</table>
+
+<h2>Important Note on Assignments</h2>
+<p>
 Web development requires attention to detail. Always validate your HTML markup and test your pages across multiple browsers before submitting your work.
 
-Course Instructor
-Instructor: Prof. Joe Smith
-Office: Baldor Building, Room 204
-Contact: jsmith@college.edu
+</p>
+
+<h2>Course Instructor</h2>
+<p>Instructor: Prof. Joe Smith</p>
+<p>Office: Baldor Building, Room 204</p>
+<p>Contact: jsmith@college.edu</p>
+
+</body>
+</html>
