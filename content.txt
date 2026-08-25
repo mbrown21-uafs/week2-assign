@@ -7,7 +7,7 @@
 
 <body>
 
-	<h1>CSCE 20303: Web Systems</h1>
+	<h1>Web Systems Course Overview</h1>
 	
 	
 <p>
@@ -16,9 +16,11 @@ technologies used to build modern web applications,
 focusing on client-side markup, style, and server-side execution.
 </p>
 
-[Image Placeholder: web-architecture.png - Description: Client-Server Architecture Diagram]
+<img
+src"web-architecture.png"
+alt="Client-Server Architecture Diagram"
 
-
+>
 
 <h2>Course Learning Objectives</h2>
 
