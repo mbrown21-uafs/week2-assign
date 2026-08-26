@@ -3,7 +3,24 @@
 <head>
 	<title>Web Systems Course Overview</title>
 
+	<style>
+	
+	body{
+		background-color: #f46f8;
+		}
+		
+		main{
+			width: 650px;
+			margin: 0 auto;
+			background-color: white;
+			border: 1px solid #ccc;
+			padding: 24px;
+			}
+<style>
+
+
 </head>
+
 
 <body>
 
@@ -16,11 +33,8 @@ technologies used to build modern web applications,
 focusing on client-side markup, style, and server-side execution.
 </p>
 
-<img
-src"web-architecture.png"
-alt="Client-Server Architecture Diagram"
-
->
+<img src="web-architecture.png"
+     alt="Client-Server Architecture Diagram">
 
 <h2>Course Learning Objectives</h2>
 
