@@ -91,6 +91,7 @@
 
 
 <body>
+	<main>
 
 	<h1>Web Systems Course Overview</h1>
 	
@@ -119,8 +120,8 @@ focusing on client-side markup, style, and server-side execution.
 <table>
 	<tr>
 		<th>Week</th>
-		<th>Topic</th>
-		<th>Readings</th>
+		<th>Topic Overview</th>
+		<th>Required Readings</th>
 	</tr>
 	
 	<tr>
@@ -149,15 +150,18 @@ focusing on client-side markup, style, and server-side execution.
 </table>
 
 <h2>Important Note on Assignments</h2>
-<p>
+<p class="important-note">
 Web development requires attention to detail. Always validate your HTML markup and test your pages across multiple browsers before submitting your work.
 
 </p>
 
 <h2>Course Instructor</h2>
-<p>Instructor: Prof. Joe Smith</p>
-<p>Office: Baldor Building, Room 204</p>
-<p>Contact: jsmith@college.edu</p>
+<div class="instructor">
+    <p>Instructor: Prof. Joe Smith</p>
+    <p>Office: Baldor Building, Room 204</p>
+    <p>Contact: jsmith@college.edu</p>
+</div>
 
+</main>
 </body>
 </html>
