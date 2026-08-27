@@ -1,178 +1,212 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Web Systems Course Overview</title>
+    <title>Web Systems Course Overview</title>
 
-	<style>
-	
-	body{
-		background-color: lightgray;
-		font-family: Arial, sans-serif;
-		color: #333;
-		line-height: 1.5;
-		}
-		
-		main{
-			width: 650px;
-			margin: 0 auto;
-			background-color: white;
-			border: 1px solid #ccc;
-			padding: 24px;
-			}
-			
-			h1{
-			color: black;
-			font-size: 24px;
-			border-bottom: 1px solid #3399dd;
-			padding-bottom: 8px;
-			
-			}
-			
-			h2{
-			color: black;
-			font-size: 16px;
-			margin-top: 28px;
-			}
-			
-			p{
-			font-size: 14px;
-			}
-			img{ 
-			width: 100%;
-			margin-top: 10px;
-			margin-bottom: 12px;
-			}
-			
-			ul{
-			padding-left: 20px;
-			}
-			
-			li{
-			font-size: 14px;
-			margin-bottom: 5px;
-			}
-			
-			table{
-			width: 100%;
-			border-collapse: collapse;
-			font-size: 13px;
-			}
-			
-			th{
-			background-color: blue;
-			color: white;
-			text-align: left;
-			padding: 10px;
-			}
-			
-			td{
-			border: 1px solid gray;
-			padding: 9px;
-			}
-			
-			.important-note{
-			background-color: lightblue;
-			border-left: 3px solid blue;
-			padding: 10px 12px;
-			margin-top: 16px;
-			}
-			
-			.instructor{
-			border: 1px solid gray;
-			padding: 12px;
-			margin-top: 16px;
-			}
-			
-			
-</style>
+    <style>
 
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.5;
+        }
 
+        main {
+            width: 650px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 24px;
+        }
+
+        h1 {
+            color: #222;
+            font-size: 24px;
+            border-bottom: 1px solid #3399dd;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        h2 {
+            color: #2f455c;
+            font-size: 16px;
+            margin-top: 28px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        /* Black Web Architecture Diagram */
+        .architecture {
+            background-color: #171717;
+            color: #f5f5f5;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 12px;
+            border-radius: 2px;
+            overflow-x: auto;
+        }
+
+        .architecture pre {
+            margin: 0;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 10px;
+            line-height: 1.5;
+            white-space: pre;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            background-color: #3399dd;
+            color: white;
+            text-align: left;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 9px;
+        }
+
+        .important-note {
+            background-color: #eaf6fc;
+            border-left: 3px solid #3399dd;
+            padding: 10px 12px;
+            margin-top: 16px;
+        }
+
+        .instructor {
+            border: 1px solid #ddd;
+            padding: 12px;
+            margin-top: 16px;
+        }
+
+    </style>
 </head>
 
 
 <body>
-	<main>
 
-	<h1>Web Systems Course Overview</h1>
-	
-	
-<p>
-Welcome to CSCE 20303: Web Systems. This course introduces the foundational 
-technologies used to build modern web applications, 
-focusing on client-side markup, style, and server-side execution.
-</p>
+    <main>
 
-<div class="architecture">
+        <h1>Web Systems Course Overview</h1>
+
+        <p>
+            Welcome to <strong>CSCE 20303: Web Systems.</strong>
+            This course introduces the foundational technologies used to build
+            modern web applications, focusing on client-side markup, style,
+            and server-side execution.
+        </p>
+
+
+        <!-- Web Architecture Diagram -->
+        <div class="architecture">
 <pre>
 +----------------+                 +----------------+
 |                |                 |                |
-|  Web Browser   |  1. HTTP Request|   Web Server   |
-|    (Client)    |---------------->| (Apache/Nginx) |
+|  Web Browser   |  1. HTTP Request (GET /)        |
+|    (Client)    |---------------->|   Web Server   |
+|                |                 | (Apache/Nginx) |
+|                |  2. HTTP Response (200 OK)      |
+|                |<----------------|                |
 |                |                 |                |
 +----------------+                 +----------------+
-                  2. HTTP Response (200 OK)
-                  <----------------
 </pre>
-</div>
->
+        </div>
 
-<h2>Course Learning Objectives</h2>
 
-<p>By the end of this semester, you will be able to:</p>
+        <h2>Course Learning Objectives</h2>
 
-<ul>
-	<li>Structure web documents using semantic HTML5.</li>
-	<li>Style and lay out web pages using CSS.</li>
-	<li>Build dynamic client-side applications with JavaScript.</li>
-	<li>Understand client-server architecture and HTTP request cycles.</li>
-</ul>
+        <p>By the end of this semester, you will be able to:</p>
 
-<h2>Weekly Topic Schedule</h2>
-<table>
-	<tr>
-		<th>Week</th>
-		<th>Topic Overview</th>
-		<th>Required Readings</th>
-	</tr>
-	
-	<tr>
-		<td>Week 1</td>
-		<td>Course Introduction & HTTP Basics</td>
-		<td>Readings: Ch. 1</td>
-	</tr>
-	
-	<tr>
-		<td>Week 2</td>
-		<td>HTML5 Semantics & Internal CSS</td>
-		<td>Readings: Ch. 2-3</td>
-	</tr>
-	
-	<tr>
-		<td>Week 3</td>
-		<td>Css Box Model & Flexbox Layouts</td>
-		<td>Readings: Ch. 4</td>
-	</tr>
-	
-	<tr>
-		<td>Week 4</td>
-		<td>Client-Side JavaScript Foundations</td>
-		<td>Readings: Ch. 5</td>
-	</tr>
-</table>
+        <ul>
+            <li>Structure web documents using semantic HTML5.</li>
+            <li>Style and lay out web pages using CSS.</li>
+            <li>Build dynamic client-side applications with JavaScript.</li>
+            <li>Understand client-server architecture and HTTP request cycles.</li>
+        </ul>
 
-<h2>Important Note on Assignments</h2>
-<p class="important-note">
-Web development requires attention to detail. Always validate your HTML markup and test your pages across multiple browsers before submitting your work.
 
-</p>
+        <h2>Weekly Topic Schedule</h2>
 
-<h2>Course Instructor</h2>
-<div class="instructor">
-    <p>Instructor: Prof. Joe Smith</p>
-    <p>Office: Baldor Building, Room 204</p>
-    <p>Contact: jsmith@college.edu</p>
-</div>
+        <table>
 
-</main>
+            <tr>
+                <th>Week</th>
+                <th>Topic Overview</th>
+                <th>Required Reading</th>
+            </tr>
+
+            <tr>
+                <td>Week 1</td>
+                <td>Course Introduction &amp; HTTP Basics</td>
+                <td>Reading: Ch. 1</td>
+            </tr>
+
+            <tr>
+                <td>Week 2</td>
+                <td>HTML5 Semantics &amp; Internal CSS</td>
+                <td>Reading: Ch. 2-3</td>
+            </tr>
+
+            <tr>
+                <td>Week 3</td>
+                <td>CSS Box Model &amp; Flexbox Layouts</td>
+                <td>Reading: Ch. 4</td>
+            </tr>
+
+            <tr>
+                <td>Week 4</td>
+                <td>Client-Side JavaScript Foundations</td>
+                <td>Reading: Ch. 5</td>
+            </tr>
+
+        </table>
+
+
+        <div class="important-note">
+            <strong>Important Note on Assignments:</strong>
+            Web development requires attention to detail. Always validate
+            your HTML markup and test your pages across multiple browsers
+            before submitting your work.
+        </div>
+
+
+        <h2>Course Instructor</h2>
+
+        <div class="instructor">
+
+            <p>
+                <strong>Instructor:</strong> Prof. Joe Smith
+            </p>
+
+            <p>
+                <strong>Office:</strong> Baldor Building, Room 204
+            </p>
+
+            <p>
+                <strong>Contact:</strong> <em>jsmith@college.edu</em>
+            </p>
+
+        </div>
+
+    </main>
+
 </body>
 </html>
