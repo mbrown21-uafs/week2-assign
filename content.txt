@@ -102,8 +102,19 @@ technologies used to build modern web applications,
 focusing on client-side markup, style, and server-side execution.
 </p>
 
-<img src="web-architecture.png"
-     alt="Client-Server Architecture Diagram">
+<div class="architecture">
+<pre>
++----------------+                 +----------------+
+|                |                 |                |
+|  Web Browser   |  1. HTTP Request|   Web Server   |
+|    (Client)    |---------------->| (Apache/Nginx) |
+|                |                 |                |
++----------------+                 +----------------+
+                  2. HTTP Response (200 OK)
+                  <----------------
+</pre>
+</div>
+>
 
 <h2>Course Learning Objectives</h2>
 
