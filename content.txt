@@ -122,14 +122,14 @@
         <!-- Web Architecture Diagram -->
         <div class="architecture">
 <pre>
-	+----------------+                 				+----------------+
-	|                |                 				|                |
-	|  Web Browser   |  1. HTTP Request (GET /)     |				 |
-	|    (Client)    |		---------------->	|   Web Server   |
-	|                |                 				| (Apache/Nginx) |
-	|                |  2. HTTP Response (200 OK)   |				 |
-	|                |		<----------------	|                |
-	+----------------+                 				+----------------+
+	+----------------+                 					+----------------+
+	|                |                 					|                |
+	|  Web Browser   |  1. HTTP Request (GET /)    		|				 |
+	|    (Client)    |		---------------->		|   Web Server   |
+	|                |                 					| (Apache/Nginx) |
+	|                |  2. HTTP Response (200 OK)   	|				 |
+	|                |		<----------------		|                |
+	+----------------+                 					+----------------+
 </pre>
         </div>
 
