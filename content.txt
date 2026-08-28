@@ -51,9 +51,9 @@
 }
 
 	.architecture pre {
-    margin: 0 auto;
+    margin: 0;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     font-family: "Courier New", Courier, monospace;
     font-size: 10px;
     line-height: 1.5;
@@ -122,12 +122,14 @@
         <!-- Web Architecture Diagram -->
         <div class="architecture">
 <pre>
-	+----------------+                 			 	 +----------------+
-	|                |                 			 	 |                |
-	|  Web Browser   |1. HTTP Request (GET /)	--------->	 	 	 |
-	|                |                 			 	 |   Web Server   |
-	|                |  	2. HTTP Response (200 OK) <-------	 	  |                |
-	+----------------+                 			 	 +----------------+
+	+----------------+                 			 +----------------+
+	|                |                 			 |                |
+	|  Web Browser   |  1. HTTP Request (GET /)  |				  |
+	|    (Client)    |		---------------->	 |   Web Server   |
+	|                |                 			 | (Apache/Nginx) |
+	|                |  2. HTTP Response (200 OK)|				  |
+	|                |		<----------------	 |                |
+	+----------------+                 			 +----------------+
 </pre>
         </div>
 
